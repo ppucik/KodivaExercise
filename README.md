@@ -53,4 +53,6 @@ Include clear instructions on how to run your program. You can use any external 
 
 ### CPM
 
-dotnet tool install CentralisedPackageConverter --global
+> dotnet tool install CentralisedPackageConverter --global
+
+> central-pkg-converter ./

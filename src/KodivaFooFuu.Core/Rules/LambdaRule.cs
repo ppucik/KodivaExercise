@@ -8,7 +8,7 @@ namespace KodivaFooFuu.Core.Rules;
 /// <param name="condition">A delegate that defines the condition to evaluate for each integer.</param>
 /// <param name="output">The output string associated with the rule.</param>
 /// <example>
-/// new LambdaRule(n => n > 50 && n < 60, "nifty")
+/// new LambdaRule(n =&gt; n &gt; 50 &amp;&amp; n &lt; 60, "nifty")
 /// </example>
 public class LambdaRule(Func<int, bool> condition, string output) : IRule
 {
