@@ -36,23 +36,17 @@ Include clear instructions on how to run your program. You can use any external 
     dotnet run --project KodivaFooFuuApp.csproj -s 10 -e 20 -o File
     ```
 
-1.  **Running Tests**
+2.  **Running Tests**
     ```bash
     dotnet test
     ```
 
+### 📋 TODO:
 
+- [ ] **Konfigurácia CI/CD**
+  Nastaviť GitHub Actions tak, aby sa testy spúšťali automaticky pri každom **pushi** kódu na GitHub.
 
+- [ ] **Swagger Dokumentácia**
+  Pridať **Swagger** do REST API, aby bolo možné testovať API priamo z prehliadača.
+  *(Napríklad cez `Swashbuckle.AspNetCore`.)*
 
-
-
-
-
-
-
-
-### CPM
-
-> dotnet tool install CentralisedPackageConverter --global
-
-> central-pkg-converter ./

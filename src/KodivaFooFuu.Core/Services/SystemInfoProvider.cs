@@ -16,6 +16,6 @@ public class SystemInfoProvider : ISystemInfoProvider
     public string GetAppHeader()
     {
         var assemblyVersion = typeof(SystemInfoProvider).Assembly.GetName().Version;
-        return $"(c) PeterPucik.sk {DateTime.Now.Year} - KodivaFooFuuApp v{assemblyVersion}";
+        return $"(c) PeterPucik.SK {DateTime.Now.Year} - KodivaFooFuuApp v{assemblyVersion}";
     }
 }
