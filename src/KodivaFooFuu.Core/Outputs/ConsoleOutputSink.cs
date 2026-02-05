@@ -1,6 +1,6 @@
 ﻿using KodivaFooFuu.Core.Interfaces;
 
-namespace KodivaFooFuuApp.Infrastructure;
+namespace KodivaFooFuu.Core.Infrastructure;
 
 /// <summary>
 /// Provides an output sink that writes messages to the console.

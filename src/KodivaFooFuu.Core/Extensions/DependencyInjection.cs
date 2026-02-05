@@ -1,14 +1,13 @@
 ﻿using KodivaFooFuu.Core.Configuration;
+using KodivaFooFuu.Core.Infrastructure;
 using KodivaFooFuu.Core.Interfaces;
 using KodivaFooFuu.Core.Rules;
 using KodivaFooFuu.Core.Services;
-using KodivaFooFuuApp.Configuration;
-using KodivaFooFuuApp.Infrastructure;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace KodivaFooFuuApp.Extensions;
+namespace KodivaFooFuu.Core.Extensions;
 
 /// <summary>
 /// Provides extension methods for registering FooFuu-related services with the dependency injection container.
@@ -78,7 +77,7 @@ public static class DependencyInjection
         });
 
         // Registrácia procesora
-        services.AddSingleton<INumberProcessor, FooFuuGenerator>();
+        services.AddScoped<INumberProcessor, FooFuuGenerator>();
 
         return services;
     }

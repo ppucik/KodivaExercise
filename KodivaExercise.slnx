@@ -5,6 +5,7 @@
     <File Path="README.md" />
   </Folder>
   <Folder Name="/src/">
+    <Project Path="src/KodivaFooFuu.Api/KodivaFooFuu.Api.csproj" Id="d10595ce-4a22-45e8-a80a-c98e0ff64484" />
     <Project Path="src/KodivaFooFuu.Core/KodivaFooFuu.Core.csproj" />
     <Project Path="src/KodivaFooFuuApp/KodivaFooFuuApp.csproj" />
   </Folder>

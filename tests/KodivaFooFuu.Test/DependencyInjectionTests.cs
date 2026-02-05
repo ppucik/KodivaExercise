@@ -1,9 +1,8 @@
 ﻿using FluentAssertions;
 using KodivaFooFuu.Core.Configuration;
+using KodivaFooFuu.Core.Extensions;
 using KodivaFooFuu.Core.Interfaces;
 using KodivaFooFuu.Core.Services;
-using KodivaFooFuuApp.Configuration;
-using KodivaFooFuuApp.Extensions;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 

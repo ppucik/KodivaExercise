@@ -1,6 +1,6 @@
 ﻿using CommandLine;
 
-namespace KodivaFooFuuApp.Configuration;
+namespace KodivaFooFuu.Core.Configuration;
 
 /// <summary>
 /// Represents configuration options for specifying a numeric range.

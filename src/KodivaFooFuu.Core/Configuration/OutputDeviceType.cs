@@ -1,4 +1,4 @@
-﻿namespace KodivaFooFuuApp.Configuration;
+﻿namespace KodivaFooFuu.Core.Configuration;
 
 public enum OutputDeviceType
 {
