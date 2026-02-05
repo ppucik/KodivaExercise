@@ -8,7 +8,10 @@ namespace KodivaFooFuuApp.Infrastructure;
 /// <param name="filePath">The path to the file where messages will be written. If the file exists, it will be overwritten.</param>
 public class FileOutputSink(string filePath) : IOutputSink, IDisposable
 {
-    private readonly StreamWriter _writer = new(filePath, append: false);
+    private readonly StreamWriter _writer = new(filePath, append: false)
+    {
+        AutoFlush = true
+    };
 
     public void Write(string message)
     {

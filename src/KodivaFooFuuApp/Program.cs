@@ -41,6 +41,8 @@ parser.ParseArguments<KodivaOptions>(args)
         // 6. Spustenie spracovania
         var processor = serviceProvider.GetRequiredService<INumberProcessor>();
         processor.Generate(options.Start, options.End);
+
+        KodivaConsole.WriteLineInfo("Koniec spracovania", ConsoleColor.Green);
     })
     .WithNotParsed(errors =>
     {

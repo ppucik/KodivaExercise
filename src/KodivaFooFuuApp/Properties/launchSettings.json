@@ -1,0 +1,8 @@
+{
+    "profiles": {
+        "KodivaFooFuuApp": {
+            "commandName": "Project",
+            "commandLineArgs": ""
+        }
+    }
+}
