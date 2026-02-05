@@ -2,7 +2,7 @@
 using KodivaFooFuu.Core.Configuration;
 using KodivaFooFuu.Core.Extensions;
 using KodivaFooFuu.Core.Interfaces;
-using KodivaFooFuuApp.Utils;
+using KodivaFooFuuApp;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 

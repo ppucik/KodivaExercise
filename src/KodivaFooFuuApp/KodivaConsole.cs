@@ -1,4 +1,4 @@
-﻿namespace KodivaFooFuuApp.Utils;
+﻿namespace KodivaFooFuuApp;
 
 /// <summary>
 /// Provides utility methods for writing informational and exit messages to the console.
